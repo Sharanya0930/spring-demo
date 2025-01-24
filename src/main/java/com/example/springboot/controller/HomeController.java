@@ -12,4 +12,10 @@ public class HomeController {
 		
 		return "hello";
 	}
+	@GetMapping("/dashboard")
+	public String dashboard(){
+
+		return "Hi I'm dashboard";
+	}
+	
 }
